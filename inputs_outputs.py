@@ -12,4 +12,4 @@ print(f"Wait, did you say that your name is {name}? I've heard of you!!\n")
 #here's a weird way to do inputs
 print("How do you feel, on a scale of 1 to 10?")
 doing = input()
-print(f"{doing}? Heh, whatever.")
+print(f"{doing}? Heh, whatever. I didn't even ask. I don't even care!!!")
