@@ -10,7 +10,7 @@ def firstFunc(loc):
     loc = "this is a local variable. it can only be used in a function"
     loc = "it can actually only be used in the function it is declared in"
     loc = "global variables can't be used here..!"
-
+    return()
 
 
 #  -------------------- WHAT CAN THEY DO?  --------------------
