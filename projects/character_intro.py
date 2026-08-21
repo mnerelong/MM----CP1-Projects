@@ -18,9 +18,9 @@ elif age >= 18:
     print(f"Hello {name}! Nice to meet you. You're {age}? I am too! I'm also from {origin}, kinda close to the South end. I thought my job would end up being {job}, but I ended up being a computer instead.\nI hope we meet again, {name}.")
 
 elif age >= 11:
-    print(f"Uhm... {name}... You seem to be pretty young to be working the job {job}... only {age}? I don't trust you. I don't trust {age} year olds. GO BACK TO {origin}!!!")
+    print(f"Uhm... {name}... You seem to be pretty young to be working the job {job}... only {age}? I don't trust you. I don't trust {age} year olds. GO BACK TO {origin.upper()}!!!")
 
-elif age <= 10:
+elif age <= 10 and age > 1:
     print(f"You're {age}? get out of here I don't have time to babysit you. I don't believe that you have a job as a {job}. Go back to {origin.upper()}!!!!!!!!!!!!!!")
 
 else:
