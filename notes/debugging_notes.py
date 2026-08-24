@@ -33,7 +33,6 @@ print(blue_fruit * people) # Tells me how many blue fruit everybody can have!!!
 
 #ex: fav_year = input("Favorite year?\n")
 #    print(1 + fav_year) # ^ string
-
 # You can't add a string to an integer and vice versa...
 
 # To fix: ( and loop )
