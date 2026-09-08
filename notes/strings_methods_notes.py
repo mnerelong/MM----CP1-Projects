@@ -1,5 +1,8 @@
 # Meika Milton, 1st period Programming I, Strings Methods Notes
 
+"""
+^^^ multi line string that acts as a comment?
+
 sentence_1 = "Triple AFFIRMATIVE!! Confirmed!!!"
 
 # ----- function?? Premade function?
@@ -58,3 +61,18 @@ print(char.isnumeric()) # is it ALL numbers?
 print(char.isupper()) # is it ALL uppercase?
 print(char.islower()) # is it ALL lower?
 print(char.istitle()) # is it a title?
+
+# ----- f strings my beloved
+print(f"The following sentence is a variable: {changed_2}")
+#     ^ short for "formatted strings"
+
+"""
+
+# ----- I DON'T EVEN LKNOW I DONT EVEN KNOW
+letter = input("I want a letter!!")
+letter = letter[0].lower()
+number_value = ord(letter) # ord(_) looks up the ascii value of a character.
+number_value += 2
+new_letter = chr(number_value) # convert back to a letter.
+print(f"old letter value: {number_value}")
+print(f"new letter: {new_letter}")

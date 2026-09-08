@@ -6,8 +6,8 @@ print(f"The word has {len(word)} letters.")
 def guessing(user_guess):
     while True:
         user_guess = input("Guess one letter.\n").lower()
-        if len(user_guess) > 1:
-            print("I said one letter, genius.")
+        if user_guess.isalpha() == False:
+            print("..? A letter. I want a letter.")
         else:
             break
     return(user_guess)
