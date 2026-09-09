@@ -1,7 +1,5 @@
 # Meika Milton, 1st period Programming I, Strings Methods Notes
 
-"""
-^^^ multi line string that acts as a comment?
 
 sentence_1 = "Triple AFFIRMATIVE!! Confirmed!!!"
 
@@ -66,7 +64,6 @@ print(char.istitle()) # is it a title?
 print(f"The following sentence is a variable: {changed_2}")
 #     ^ short for "formatted strings"
 
-"""
 
 # ----- I DON'T EVEN LKNOW I DONT EVEN KNOW
 letter = input("I want a letter!!")
