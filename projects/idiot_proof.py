@@ -15,22 +15,35 @@ def phone(intake):
         try:
             intake = int(input(f"What is your phone number?\n"))
         except:
-             print("Please try again.")
+            print("Please try again.")
         else:
-             break
+            intake = str(intake)
+            if len(intake) == 10:
+                intake = list(intake) # I admit that I searched this up, but I'm glad that I did! I feel like I learned something (because I did)
+                intake.insert(3, " ") # sorry I looked up insert too.
+                intake.insert(7, " ")
+                intake = "".join(intake)
+                break
+            else:
+                print("Try again.")
     return intake
 
 def grade(intake):
 
     while True:
-            intake = input(f"What is your last name?\n").title()
-            if intake.isalpha():
-                break
+        try:
+            intake = float(input(f"What is your GPA?\n"))
+        except:
+            print("No... Try again.")
+        else:
+            if intake > 12 or intake < 0:
+                print("Sure. Sure buddy. Try again.")
             else:
-                print("Please try again.")
+                break
     return intake
 
 user_name = name(0)
 phone_num = phone(0)
-gpa = []
+gpa = grade(0)
 
+print(f"Let me get this straight. Your LAST name is {user_name}; your phone number is {phone_num}; and you have a {gpa} GPA?\nWhatever. I didn't even ask.")
