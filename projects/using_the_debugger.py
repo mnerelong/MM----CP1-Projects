@@ -16,15 +16,19 @@ while True:
 
 total = price * int(quantity) # quantity was a string. Switched it to be an integer. run time error.
 
-discounted_total = total - 2 * 0.10
+discounted_total = total - (total * 0.10) # made this an actual 10% discount, not just subtracting 0.1
 
 tax_rate = 0.08 
 total_with_tax = discounted_total + (discounted_total * tax_rate)
 
 print("Hello, " + pirate_name + "! Here's your order summary:")
 print("Snack: " + snack_name) # fixed incorrect variable name. run time error.
-print("Price per snack: " + str(price) + " credits")
-print("Total before tax: " + str(total)) # logic error, total before tax should be the total. used to just be the price.
+print("Price per snack: " + str(price) + " credits") #/ missing credits at the end.
+print("Total before tax: " + str(total) + " credits") # logic error, total before tax should be the total. used to just be the price.
+print("Total with discount: " + str(discounted_total) + " credits") # needed discounted total
+if total > 20:
+    discounted_total -= 1
+    print("Total with 20+ credits discount: " + str(discounted_total) + " credits")
 print("Total with tax: " + str(round(total_with_tax, 2)) + " credits") # added missing parenthesis. syntax error.
 
 # WHERE IS THE SECOND LOGIC ERROR!!???!?!?!?!?!?!?!
