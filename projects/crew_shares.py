@@ -12,7 +12,7 @@ crew_shares = 0
 
 while True:
     try:
-        pirate_total = int(input("How many pirates are there?\n"))
+        pirate_total = int(input("How many pirates are there?\nINCLUDING Yondu and Peter.\nAlso you have to name all of them.\n"))
     except:
         print("?? Weird crew size, huh?")
     else:
