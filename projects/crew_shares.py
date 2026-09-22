@@ -26,15 +26,18 @@ pirate_names = []
 for pirate in range(1, (pirate_total - 1)):
     pirate_names.append(input(f"Whats the name of pirate # {pirate}?\n").strip().title())
 
-initial_plunder = random.randint(500, 5001)
+initial_plunder = random.randint(500, 5000) # i did 5001 because i thought that the 2nd number isnt included and i wanted to include 5000 im sorry
 plunder = initial_plunder
 
 crew_shares = 3
+yondu_share = 3
+peter_share = 3
 plunder -= crew_shares * pirate_total
 
 yondu_share = udonta_quill(plunder, yondu_share, 13)
+plunder -= yondu_share
 peter_share = udonta_quill(plunder, peter_share, 11)
-plunder -= yondu_share + peter_share
+plunder -= peter_share
 
 equal_share = round(plunder / pirate_total, 2)
 
