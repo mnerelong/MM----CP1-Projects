@@ -39,9 +39,9 @@ peter_share = 3
 plunder -= crew_shares * pirate_total
 
 yondu_share = udonta_quill(plunder, yondu_share, 13)
-plunder -= yondu_share
+plunder = round(plunder - yondu_share, 2)
 peter_share = udonta_quill(plunder, peter_share, 11)
-plunder -= peter_share
+plunder = round(plunder - peter_share, 2)
 
 equal_share = round(plunder / pirate_total, 2)
 
