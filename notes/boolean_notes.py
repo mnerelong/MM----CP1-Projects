@@ -26,6 +26,7 @@ if 17 < age: # boolean equation. will always result in true or false
 "[==] equal to"
 "[!=] not equal to"
 
+
 # ANYTHING!!!! ANYTHING CAN BE A BOOLEAN!!!! ----------------
 print("\n",bool(age)) # age is true...
 age = 14
