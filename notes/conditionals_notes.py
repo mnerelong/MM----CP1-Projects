@@ -24,3 +24,9 @@ if raining:
     print("SLUGCATS RUNN!!!!!!")
 else:
     print("I sure hope it doesn't RAIN in this WORLD because then I'd be TWO soggy to walk.")
+
+
+# ------- INLINE CONDITIONALS
+pebbles = 5
+iterator = True if pebbles == 5 else False
+print(f"You're an iterator: {iterator}!!")
