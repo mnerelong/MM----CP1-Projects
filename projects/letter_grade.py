@@ -14,36 +14,36 @@ letter_grad = []
 for i in range(1, class_amt):
     while True:
         try:
-            grades.append(int(input(f"What's your grade in your {i} period?")))
+            grades.append(int(input(f"What's your grade in your {i} period, John?: ")))
         except:
             print("Try again, John.")
         else:
             break
 
         #grades based on Mrs. Cannon's SM2 class.
-    if grades.index(i-1) > 100:
+    if grades[i - 1] > 100:
         letter_grad.append("A+") # How exactly would I use logical operators for determining + or -?
-    elif grades.index(i-1) >= 92:
+    elif grades[i - 1] >= 92:
         letter_grad.append("A")
-    elif grades.index(i-1) >= 90:
+    elif grades[i - 1] >= 90:
         letter_grad.append("A-")
-    elif grades.index(i-1) >= 89:
+    elif grades[i - 1] >= 89:
         letter_grad.append("B+")
-    elif grades.index(i-1) >= 86:
+    elif grades[i - 1] >= 86:
         letter_grad.append("B")
-    elif grades.index(i-1) >= 81:
+    elif grades[i - 1] >= 81:
         letter_grad.append("B-")
-    elif grades.index(i-1) >= 79:
+    elif grades[i - 1] >= 79:
         letter_grad.append("C+")
-    elif grades.index(i-1) >= 76:
+    elif grades[i - 1] >= 76:
         letter_grad.append("C")
-    elif grades.index(i-1) >= 71:
+    elif grades[i - 1] >= 71:
         letter_grad.append("C-")
-    elif grades.index(i-1) >= 69:
+    elif grades[i - 1] >= 69:
         letter_grad.append("D+")
-    elif grades.index(i-1) >= 66:
+    elif grades[i - 1] >= 66:
         letter_grad.append("D")
-    elif grades.index(i-1) >= 62:
+    elif grades[i - 1] >= 62:
         letter_grad.append("D-")
     else:
         letter_grad.append("F")
@@ -54,7 +54,7 @@ for grade in grades:
     avg_perc += grade
 
 for i in range(class_amt):
-    print(f"Your grade in class #{i} is {grades.index(i)}, which is a {letter_grad.index(i)}.")
+    print(f"Your grade in class #{i} is {grades[i-1]}, which is a {letter_grad[i-1]}.")
 
 avg_perc /= len(grades)
-print(f"Your grade average is {avg_perc}")
+print(f"Your grade average is {round(avg_perc, 2)}")
