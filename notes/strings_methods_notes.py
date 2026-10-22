@@ -1,4 +1,4 @@
-# Meika Milton, 1st period Programming I, Strings Methods Notes
+# MM, 1st period Programming I, Strings Methods Notes
 
 
 sentence_1 = "Triple AFFIRMATIVE!! Confirmed!!!"

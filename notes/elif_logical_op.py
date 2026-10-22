@@ -1,4 +1,4 @@
-# Meika Milton, 1st period Programming I, Elif & Logical Operators Notes
+# MM, 1st period Programming I, Elif & Logical Operators Notes
 import random
 
 suns = random.randint(0, 10)

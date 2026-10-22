@@ -1,3 +1,3 @@
-# Meika Milton, First Project
+# MM, First Project
 
 print("Hello World.")

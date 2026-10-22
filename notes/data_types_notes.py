@@ -1,4 +1,4 @@
-# Meika Milton, Data Types Notes
+# MM, Data Types Notes
 #integers. whole numbers.
 integer = 1
 #         ^ this is an integer. just write the number.

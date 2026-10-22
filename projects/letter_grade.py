@@ -1,4 +1,4 @@
-# Meika Milton, 1st period Programming I, Letter Grade Assignment
+# MM, 1st period Programming I, Letter Grade Assignment
 
 while True:
     try:

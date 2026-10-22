@@ -1,4 +1,4 @@
-# Meika Milton, 1st period Programming I, Mapping Notes
+# MM, 1st period Programming I, Mapping Notes
 
 import math
 

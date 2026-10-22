@@ -1,4 +1,4 @@
-# Meika Milton, 1st period Programming I, Stirng Notes
+# MM, 1st period Programming I, Stirng Notes
 
 #------------------- STRINGS: are a collection of characters held together by quotation marks. "ex"
 string = "I am a string"

@@ -1,4 +1,4 @@
-# Meika Milton, 1st period Programming I, Idiot Proof Assignment
+# MM, 1st period Programming I, Idiot Proof Assignment
 def name(intake):
 
     while True:

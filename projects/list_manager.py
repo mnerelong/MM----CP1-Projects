@@ -1,4 +1,4 @@
-# Meika Milton, 1st period Programming I, Shopping List Manager
+# MM, 1st period Programming I, Shopping List Manager
 
 def add (shopping):
     shopping.append(input("What would you like to add?\n"))

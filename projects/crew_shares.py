@@ -1,4 +1,4 @@
-# Meika Milton, 1st period Programming I, Crew Shares
+# MM, 1st period Programming I, Crew Shares
 
 import random
 

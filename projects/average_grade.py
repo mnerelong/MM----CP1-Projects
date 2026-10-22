@@ -1,4 +1,4 @@
-# Meika Milton, 1st period Programming I, Average Grade
+# MM, 1st period Programming I, Average Grade
 
 # -------------asking how many classes
 def check(period_amt):

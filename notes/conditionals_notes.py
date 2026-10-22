@@ -1,4 +1,4 @@
-# Meika Milton, 1st period Programming I, Conditionals Notes
+# MM, 1st period Programming I, Conditionals Notes
 
 # CONDITIONAL STATEMENT ------- makes decisions based on a boolean value.
 pebbles = 5

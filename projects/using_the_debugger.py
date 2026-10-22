@@ -1,4 +1,4 @@
-# Meika Milton, 1st period Programming I, fixing the Ravager Snack Bar
+# MM, 1st period Programming I, fixing the Ravager Snack Bar
 
 import random
 

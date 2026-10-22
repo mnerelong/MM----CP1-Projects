@@ -1,4 +1,4 @@
-# Meika Milton, Inputs & Outputs not notes??
+# MM, Inputs & Outputs not notes??
 
 name = input("What is your name?\n").title()
 print("Welcome to programming 1, " + name + ".\n\n") #I don't know what I'm doing

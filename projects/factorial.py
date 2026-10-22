@@ -1,4 +1,4 @@
-# Meika Milton, 1st period Programming I, Factorial Calculator
+# MM, 1st period Programming I, Factorial Calculator
 
 import math
 

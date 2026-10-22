@@ -1,4 +1,4 @@
-# Meika Milton, 1st period Programming I, User Signin
+# MM, 1st period Programming I, User Signin
 
 #user_list = [["xXerratic_PUSLEXx", "IHATE_FAM1LY"], ["sis_M00n", "b1tt3rA3rie"], ["_X-SIGNIFICANT-HARASSMENT6969-X_", "BOII1I"], ["7red_son-s", "R0TP3BBLES"]]
 user_list = ["xXerratic_PUSLEXx", "sis_M00n", "_X-SIGNIFICANT-HARASSMENT6969-X_", "7red_son-s", "4-ease"]

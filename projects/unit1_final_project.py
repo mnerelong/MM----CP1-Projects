@@ -1,4 +1,4 @@
-# Meika Milton, Unit 1 Final Project introduction
+# MM, Unit 1 Final Project introduction
 
 name = input("PLEASE TOGGLE WORD WRAP (alt-z) just in case\nHey there, star! What's your name?\n").title() # name should have first letter capitalized only
 

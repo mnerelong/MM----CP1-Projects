@@ -1,4 +1,4 @@
-# Meika Milton, 1st period Programming I, Madlib
+# MM, 1st period Programming I, Madlib
 
 word_types = ["a creature", "a place", "another place", "an adjective", "a noun", "an emotion or feeling", "a verb ending in -ed/past tense", "a game", "a verb", "an adjective", "another adjective", "a place", "a food or drink", "a verb ending in -ing" ]
 word_response = []

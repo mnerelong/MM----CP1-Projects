@@ -1,4 +1,4 @@
-# Meika Milton, Variables Notes.
+# MM, Variables Notes.
 
 
 question = "what is a variable?" # a container.

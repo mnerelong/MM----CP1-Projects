@@ -1,4 +1,4 @@
-# Meika Milton, 1st period Programming I, Random Numbers
+# MM, 1st period Programming I, Random Numbers
 import random
 #         ^ module/library
 # contains a bunch of pre-built functions.

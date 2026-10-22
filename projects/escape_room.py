@@ -1,4 +1,4 @@
-# Meika Milton, 1st period Programming I, Escape Room
+# MM, 1st period Programming I, Escape Room
 
 import random
 

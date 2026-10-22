@@ -1,4 +1,4 @@
-# Meika Milton, Character Introduction
+# MM, Character Introduction
 
 name = input("What's your name?\n").title()
 age = int(input("How old are you?\n"))

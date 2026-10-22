@@ -1,4 +1,4 @@
-# Meika Milton, Hello World
+# MM, Hello World
 
 name = input("What's your name, buddy?\n").title() # I looked through my old code briefly and found the .lower() and .upper() things and it was great.
 print(f"Hello, {name}!") # I don't know how I remembered f strings.

@@ -1,4 +1,4 @@
-# Meika Milton 1st period Programming I
+# MM 1st period Programming I
 
 word = "pebbles"
 print(f"The word has {len(word)} letters.")

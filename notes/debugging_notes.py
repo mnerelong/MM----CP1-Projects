@@ -1,4 +1,4 @@
-# Meika Milton, Debugging Notes
+# MM, Debugging Notes
 
 #----------------------------------------
 

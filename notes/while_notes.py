@@ -1,4 +1,4 @@
-# Meika Milton, 1st period Programming I, While Loops Notes
+# MM, 1st period Programming I, While Loops Notes
 
 import random
 import time

@@ -1,4 +1,4 @@
-# Meika Milton, Fix the Code
+# MM, Fix the Code
 
 name = "Alex"
 age = 16

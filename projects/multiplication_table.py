@@ -1,4 +1,4 @@
-# Meika Milton, 1st period Programming I, Multiplication Table
+# MM, 1st period Programming I, Multiplication Table
 while True:
     try:
         user_range = int(input("How big dya want your multiplication table?\n"))

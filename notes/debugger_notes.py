@@ -1,4 +1,4 @@
-# Meika Milton, 1st period Programming I, Using the debugger notes.
+# MM, 1st period Programming I, Using the debugger notes.
 
 # DEBUGGER - shows you what your code is doing while it runs.
 #     It does not fix it.

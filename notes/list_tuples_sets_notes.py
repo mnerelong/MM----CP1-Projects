@@ -1,4 +1,4 @@
-# Meika Milton, 1st period Programming I,  Lists, Tuples, and Sets Notes
+# MM, 1st period Programming I,  Lists, Tuples, and Sets Notes
 
 # ---------- LIST BREAKDOWN!! ----------
 #bust a move! Lists are complex data types. Holds multiple values/multiple pieces of information at once.

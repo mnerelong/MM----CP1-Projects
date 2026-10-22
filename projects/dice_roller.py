@@ -1,4 +1,4 @@
-# Meika Milton, 1st period Programming I, Dice Roller
+# MM, 1st period Programming I, Dice Roller
 import random
 
 def roll(list):
