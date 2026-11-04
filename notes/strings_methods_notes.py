@@ -69,7 +69,7 @@ print(f"The following sentence is a variable: {changed_2}")
 letter = input("I want a letter!!")
 letter = letter[0].lower()
 number_value = ord(letter) # ord(_) looks up the ascii value of a character.
-number_value += 2
+number_value += 1
 new_letter = chr(number_value) # convert back to a letter.
 print(f"old letter value: {number_value}")
 print(f"new letter: {new_letter}")

@@ -2,6 +2,7 @@
 
 
 def thousand_wind_wine():
+    """This function 'sings' thousand wind wine."""
     print("Fill up the barrels and store them away,")
     print("and wait, wait for a windier day.")
     print("Wax the bottles, seal them tight.")
@@ -18,6 +19,7 @@ def thousand_wind_wine():
 
 #             v-- parameters are like variables that exist SOLELY in the function
 def banning(name, loud_mouth="Albert Rich"):# <- sets a default parameter incase one isn't provided
+    """This function bans people from family functions."""
     print(f"\n{name} is BANNED from the family func.")
     print(f"Will {name} ever be allowed back at the family func? NO. {name.upper()} WILL NOT BE COMING BACK TO THE FAMILY FUNC.")
     print(f"Shut up {loud_mouth} you SUCK at gambling.")
@@ -60,6 +62,7 @@ while mass_ban == "y":
 
 #                 v----------v---------- order MATTERS when you're setting them
 def position(positional, arguments):
+    """This function is... for anatomy purposes?"""
     print(f"I'm {positional}...\nI'm {arguments}!!")
 
 
