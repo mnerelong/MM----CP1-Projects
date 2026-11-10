@@ -16,6 +16,15 @@ def encode(raw, shift=1):
 
     return encoded
 
+def for_decode(raw, shift, new_list):
+    for char in raw:
+        if not char.isalpha():
+            new_list.append(str(char))
+            continue
+        new_char = chr(ord(char) - shift)
+        new_list.append(new_char)
+    return new_list
+
 def decode(raw, shift):
     """This function will decode the given information."""
     decoded = []
@@ -27,15 +36,6 @@ def decode(raw, shift):
     else:
         for_decode(raw, shift, decoded)
     return new_decoded
-
-def for_decode(raw, shift, new_list):
-    for char in raw:
-        if not char.isalpha():
-            new_list.append(str(char))
-            continue
-        new_char = chr(ord(char) - shift)
-        new_list.append(new_char)
-    return new_list
 
 def joining(string):
     """This function will join lists into individual strings, which doesn't make sense because strings /are/ lists, right???"""

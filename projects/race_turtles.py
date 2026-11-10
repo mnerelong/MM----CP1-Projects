@@ -2,7 +2,6 @@
 
 import turtle as t
 import random as r
-import time
 
 def turtle_color(turtles, colors):
     """This function colors each of the turtles accordingly."""
@@ -10,10 +9,12 @@ def turtle_color(turtles, colors):
         turtle.color(colors[(turtles.index(turtle))])
     return turtle
 
+t.screensize(1000, 1000)
+
 finish_line = t.Turtle()
 finish_line.hideturtle()
 
-# C:U turtles in honor of the game releasing on the 9th (today, as of writing)
+
 gray_turtle = t.Turtle() # Expie
 
 blue_turtle = t.Turtle() # Milky
@@ -23,7 +24,7 @@ yellow_turtle = t.Turtle() # Dune
 pink_turtle = t.Turtle() # Observer (I literally cannot think of anybody else)
 
 brown_turtle = t.Turtle() # Moffee?
-# it's the 10th and moffee was livestreaming this morning... not playing C:U, however.
+
 
 t.bgcolor("#241B1B")
 lineup = [gray_turtle,  blue_turtle, pink_turtle, yellow_turtle, brown_turtle]
@@ -40,7 +41,7 @@ y = -150
 for turtle in lineup:
     turtle.teleport(-550, y )
     y += 100 # changes the y value by a set amount so that they're all a specific distance from each other.
-#
+
 finish_line.color("red") # finish line here
 finish_line.speed(0)
 finish_line.teleport(550, -500); finish_line.goto(550, 500)
