@@ -1,21 +1,24 @@
 # MM, period 1 Programming I, Flexible Calculator
 
 def sum_of(*nums):
+    """Finds the sum of the given numbers."""
     total = 0
     for num in nums[0]:
         total += num
     return total
 
 def average_of(*nums):
+    """Finds the average of the given numbers."""
     total = 0
     for num in nums[0]:
-        total += nums
-    avg = total/len(nums)
+        total += num
+    avg = int(total/len(nums[0]))
     return avg
 
 def max_of(*nums):
+    """Finds the max in the given numbers."""
     maximum = nums[0][0]
-    for num in nums:
+    for num in nums[0]:
         if num > maximum:
             maximum = num
         else:
@@ -23,6 +26,7 @@ def max_of(*nums):
     return maximum
 
 def min_of(*nums):
+    """Finds the min in the given numbers."""
     minimum = nums[0][0]
     for num in nums[0]:
         if num < minimum:
@@ -32,7 +36,8 @@ def min_of(*nums):
     return minimum
 
 def product_of(*nums):
-    product = num[0][0]
+    """Finds the product of the given numbers."""
+    product = nums[0][0]
     i = 0
     for num in nums[0]:
         if not i:
@@ -41,6 +46,7 @@ def product_of(*nums):
         product = product * num
 
 def number_picking(**kwargs): # using kwargs here so that it doesn't break if i were to put something in
+    """Lets the user pick numbers."""
     user_numbers = []
     print("\nEnter the numbers that you want (individually, separated by you pressing enter). When you're finished simply keep the input blank.")
     while True:
@@ -69,7 +75,7 @@ while True: # loop 1
         try:
             to_do = int(input("Hello! Would you like to:\n[1] Find the sum of-\n[2] Find the average of-\n[3] Find the max of-\n[4] Find the min of-\n[5] Find the product of-\nWhat will it be: "))
         except:
-            print("That isn't something that I can do for you.")
+            print("That isn't something that I can do for you.\n")
         else:
             break # breaks loop 2
 
@@ -83,7 +89,7 @@ while True: # loop 1
 
     elif to_do == 3:
         to_use = number_picking()
-        print(max_of(to_do))
+        print(max_of(to_use))
 
     elif to_do == 4:
         to_use = number_picking()
@@ -94,8 +100,8 @@ while True: # loop 1
         print(product_of(to_use))
 
     else:
-        print("Try again.")
-
+        print("That isn't something that I can do for you.\n")
+        continue
 
     again = ""
     again = input("Would you like to go again? (y/n) :")
